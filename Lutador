@@ -2,3 +2,4 @@ public class Lutador {
  String nome;
  int energia;
  int força;
+ editado 
