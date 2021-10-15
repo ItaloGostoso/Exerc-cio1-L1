@@ -10,6 +10,7 @@ public class Paciente {
   String tipoSanguineo;
   
   public Paciente(int codigo, String nome, String dataNascimento, String sexo, int planoSaude, String alergia, String tipoSanguineo){
+    this.nome = nome;
     this.codigo = codigo;
     this.alergia = alergia;
     this.dataNascimento = dataNascimento;
