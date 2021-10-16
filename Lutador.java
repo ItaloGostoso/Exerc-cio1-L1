@@ -6,7 +6,7 @@ public class Lutador {
     int forca;
     public Lutador(String nome, int energia, int forca){
         this.nome = nome;
-        this.energia = Ene;
+        this.energia = ene;
         this.forca = Forca;
     }
     
