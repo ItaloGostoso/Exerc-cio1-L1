@@ -6,8 +6,8 @@ public class Post {
    int numeroCurtidas;
    int numeroCompartilhamentos;
    
-   public Post(String text, String link){
-       this.texto = ext;
+   public Post(String txt, String lk){
+       this.texto = txt;
        this.link = lk;  
    }
    public void curta() {
