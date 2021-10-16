@@ -10,7 +10,11 @@ public class Lutador {
         this.forca = Forca;
     }
     
-    public void aplicarGolpe(Lutador oponente){
+    public void aplicarGolpe(String nome){
         oponente.Ene -= forca;
     }
+    
+    public void reduzirEnergia(int forca)
+        energia = energia - forca;
+        return energia;
 }
